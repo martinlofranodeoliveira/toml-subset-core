@@ -1,0 +1,14 @@
+{
+  "name": "toml-subset-core",
+  "version": "0.1.0",
+  "description": "TOML subset parser and canonical serializer: tables, dotted keys, arrays, inline tables. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/toml.test.js",
+    "demo": "node bin/toml.mjs --assert"
+  }
+}
